@@ -17,15 +17,15 @@ function App() {
         const moviesJSON = moviesRes.data;
         setMovieData(moviesJSON);
       } catch (err) {
-        console.error(err)
+        console.error(err);
       }
     }
 
     loadMovies();
 
     return () => {
-      abortController.abort()
-    }
+      abortController.abort();
+    };
   }, [movieId]);
 
   const handleChange = (e) => {
