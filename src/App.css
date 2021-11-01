@@ -1,4 +1,13 @@
-.App {
+.App, body {
   width: 90%;
+  margin: 1rem auto;
+}
+
+img {
+  max-width: 60%;
+  height: auto;
+}
+button {
+  margin: .5rem;
 }
 
